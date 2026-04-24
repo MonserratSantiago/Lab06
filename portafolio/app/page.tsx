@@ -1,6 +1,8 @@
 import Image from "next/image";
 import HeaderModule from "./Components/Header/Header";
 import HeroModule from "./Components/Hero/Hero";
+import CvModule from "./Components/Cv/Cv";
+import InterestsModule from "./Components/Interests/Interests";
 
 
 export default function Home() {
@@ -8,6 +10,8 @@ export default function Home() {
    <>
    <HeaderModule />
    <HeroModule />
+   <CvModule/>
+   <InterestsModule/>
    </> 
   );
 }
