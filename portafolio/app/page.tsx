@@ -4,7 +4,7 @@ import HeroModule from "./Components/Hero/Hero";
 import CvModule from "./Components/Cv/Cv";
 import InterestsModule from "./Components/Interests/Interests";
 import ContactModule from "./Components/Contact/Contact";
-
+import ProyectsModule from "./Components/Contact/Contact";
 
 export default function Home() {
   return (
@@ -14,6 +14,7 @@ export default function Home() {
    <CvModule/>
    <InterestsModule/>
    <ContactModule/>
+   <ProyectsModule/>
    </> 
   );
 }
